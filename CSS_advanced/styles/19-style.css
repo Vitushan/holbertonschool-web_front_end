@@ -34,6 +34,7 @@
     --nav-item-display: inline-block;
     --nav-item-margin: 3rem 0 0 0;
     --nav-item-link-hover: #d73953;
+    --section-tagline-margin: 0;
 }
 
 *,
@@ -152,4 +153,14 @@ a:active {
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
+}
+
+.section-tagline {
+    margin: var(--section-tagline-margin);
+}
+
+ul.row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
