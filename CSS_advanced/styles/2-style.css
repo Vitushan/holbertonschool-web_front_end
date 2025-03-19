@@ -1,9 +1,9 @@
 body {
-    color: text-color;
+    color: #161616;
 }
 
 a {
-    color: text-color;
+    color: #161616;
 }
 
 .visually-hidden {
@@ -11,9 +11,9 @@ a {
 }
 
 .card-category {
-    color: #d73953
+    color: #d73953;
 }
 
 .section-tagline {
-    color: color-primary;
+    color: #d73953;
 }
