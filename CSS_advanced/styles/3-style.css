@@ -7,7 +7,14 @@
     --text-color: color-black;
 }
 
-body {
+    body {
+        color: var(--text-color);
+    }
+
+    a {
+        color: var(--text-color);
+    }
+
     .section-tagline {
         color: var(--color-primary);
     }
@@ -15,4 +22,3 @@ body {
     .card-category {
         color: var(--color-primary);
     }
-}
