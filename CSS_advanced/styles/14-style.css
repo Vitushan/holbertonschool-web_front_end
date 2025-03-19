@@ -26,7 +26,7 @@
 html {
     font-size: 62.5%;
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%
+
     
 }
 
@@ -36,8 +36,6 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-    font-family: Arial, sans-serif;
-    color: #333;
 }
 
 a {
@@ -85,12 +83,4 @@ a:hover {
 
 a:active {
     background-color: var(--color-light-grey);
-}
-
-h1 {
-    color: #d73953;
-}
-
-p {
-    font-size: 1.6rem;
 }
