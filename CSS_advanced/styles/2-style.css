@@ -1,9 +1,9 @@
 body {
-    color: #161616;
+    color: text-color;
 }
 
 a {
-    color: #161616;
+    color: text-color;
 }
 
 .visually-hidden {
@@ -15,5 +15,5 @@ a {
 }
 
 .section-tagline {
-    color: #d73953;
+    color: color-primary;
 }
