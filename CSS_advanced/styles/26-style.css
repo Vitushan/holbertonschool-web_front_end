@@ -1,3 +1,4 @@
+
 :root{
     --color-primary: #d73953;
     --color-black: #090909;
@@ -448,4 +449,20 @@ footer ul {
 
 [data-section-theme="dark"] {
     --button-color:var(--color-white);
+}
+
+.card-testimonial {
+    text-align: center;
+}
+
+.card-testimonial .card-avatar {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-testimonial .card-quote cite {
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-primary);
 }
