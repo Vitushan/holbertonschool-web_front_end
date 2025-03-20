@@ -152,7 +152,7 @@ a:active {
 
 .nav .nav-item:hover .nav-link::before {
    width: 100%;
-   backgroound-color: var(--color-primary);
+   background-color: var(--color-primary);
 }
 
 .nav .nav-link {
