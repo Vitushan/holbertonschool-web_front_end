@@ -395,3 +395,12 @@ footer ul {
     --section-title-color: var(--color-white);
     background: var(--color-black);
 }
+
+.card-title .card-service {
+    margin: ;
+}
+
+.card-service .a {
+    background-color: var(--color-primary) ;
+}
+
