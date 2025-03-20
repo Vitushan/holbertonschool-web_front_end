@@ -33,7 +33,7 @@
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
     --nav-item-margin: 3rem 0 0 0;
-    --nav-item-link-hover: #d73953;
+    --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
@@ -150,22 +150,29 @@ a:active {
     text-align: center;
 }
 
-.nav .nav-item {
+.nav .nav-item:hover .nav-link::before {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 .nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
+    position: relative;
 }
 
-.nav .nav-link:hover {
+.nav .nav-link:before {
     color: var(--nav-item-link-hover);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 20%;
 }
 
 ul.row {
