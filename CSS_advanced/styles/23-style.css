@@ -396,11 +396,14 @@ footer ul {
     background: var(--color-black);
 }
 
-.card-title .card-service {
-    margin: ;
+.footer-address {
+    color: var(--text-color);
 }
 
-.card-service .a {
-    background-color: var(--color-primary) ;
+.social-link {
+    display: block;
 }
 
+.social-link svg {
+    fill: var(--text-color);
+}
