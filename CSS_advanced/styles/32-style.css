@@ -49,8 +49,6 @@
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
-    --transition-duration: .3s;
-    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
 *,
@@ -173,7 +171,6 @@ a:active {
     height: 20%;
     background-color:var(--nav-item-link-hover);
     transition: width 0.3s ease, background-color 0.3s ease;
-    transition: width var(--transition-duration) var(--transition-cubic-bezier), background-color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 ul.row {
@@ -258,9 +255,7 @@ footer ul {
     color: var(--color-white);
     background: var(--button-hover-background);
     text-decoration: var(--button-hover-text-decoration);
-    transition: background-color var(--transition-duration), color var(--transition-duration);
 }
-
 
 [data-section-theme="dark"] {
     --button-color: var(--color-white);
@@ -319,8 +314,6 @@ header {
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
-    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
-    transform: scale(0.95);
   }
   
   .card-work .card-inner {
@@ -372,7 +365,6 @@ header {
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
-    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
   }
   
   .card-work .card-inner {
@@ -385,7 +377,6 @@ header {
   
   .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
-    transition: background-color var(--transition-duration) var(--transition-cubic-bezier);
   }
   
   .card-work .card-title {
