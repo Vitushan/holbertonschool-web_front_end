@@ -416,7 +416,7 @@ nav .nav-link:hover {
 
 [data-section-theme="dark"] {
     --text-color: var(--color-white);
-    --section-title-color: var(var(--color-white));
+    --section-title-color: var(--color-white);
 }
 
 .card-services .card-title {
