@@ -4,21 +4,26 @@ body {
   font-size: var(--font-size-medium);
 }
 
+
 a {
   color: var(--text-color);
 }
+
 
 .visually-hidden {
   display: none;
 }
 
+
 .card-category {
   color: var(--color-primary);
 }
 
+
 .section-tagline {
   color: var(--color-primary);
 }
+
 
 :root {
     --color-primary: #d73953;
@@ -36,9 +41,11 @@ a {
     --font-size-xx-large: 4.8rem;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
+
 
 html {
     font-size: 62.5%;
