@@ -479,7 +479,7 @@ nav .nav-link:hover {
 }
 
 .section-hero {
-    background-size: auto 100%;
+    background-size: auto;
     width:90rem;
     height: auto;
 }
